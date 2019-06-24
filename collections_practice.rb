@@ -45,4 +45,3 @@ def add_s(array)
   end
 plurals
 end
-end
