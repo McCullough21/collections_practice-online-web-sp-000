@@ -17,10 +17,10 @@ def reverse_array(array)
 end
 def kesha_maker(array)
   changes = []
-  array.each do |word|
+  changes << array.each do |word|
     "#{word}".split(",")
     word[2] = "$"
-    changes << word.join("")
+    word.join("")
 
   end
   changes
