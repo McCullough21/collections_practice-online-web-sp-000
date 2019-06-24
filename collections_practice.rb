@@ -41,6 +41,7 @@ def add_s(array)
     if "#{word}" == "feet"
        plurals << "#{word}"
     elsif plurals << "#{word}s"
-end
+    end
 plurals
+end
 end
