@@ -19,7 +19,8 @@ def kesha_maker(array)
   changes = []
   array.each do |word|
     "#{word}".split(", ")
-    changes << word[2] = "$"
+    word[2] = "$"
+    changes << word[].join
 
   end
   changes
