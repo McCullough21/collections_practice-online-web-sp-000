@@ -33,7 +33,7 @@ end
 def sum_array(array)
   sum = 0
   array.each do |num|
-    sum + "#{num.to_i}"
+    sum + num 
   end
   sum
 end
