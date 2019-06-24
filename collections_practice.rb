@@ -9,5 +9,5 @@ def sort_array_char_count(array)
   array.sort_by{|string| string.size}
 end
 def swap_elements(array)
-  array|1,2|.reverse
+  array|1-2|.reverse
 end
