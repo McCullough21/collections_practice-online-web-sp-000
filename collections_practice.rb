@@ -31,9 +31,9 @@ def find_a(array)
 end
 [2, 9, 7]
 def sum_array(array)
-  sum = 0
+  sum = (0)
   array.each do |num|
-    sum + num 
+    sum + num
   end
   sum
 end
