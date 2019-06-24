@@ -30,5 +30,5 @@ def find_a(array)
   end
 end
 def sum_array(array)
-  array.add 
+  array.add
 end
