@@ -42,6 +42,7 @@ def add_s(array)
        plurals << "#{word}"
     elsif plurals << "#{word}s"
     end
+  end
 plurals
 end
 end
