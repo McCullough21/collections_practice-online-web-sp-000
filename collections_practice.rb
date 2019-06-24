@@ -21,7 +21,6 @@ def kesha_maker(array)
     "#{word}".split(",")
     word[2] = "$"
     changes << word.to_str
-
   end
   changes
 end
